@@ -22,9 +22,15 @@ func Stringdatatype() {
 func Signedintdatatype() {
 	var num int = 15
 	var num1 int8 = 120
+	// var nnum1 int8 = 2500 --> can't be assigned
 	var num2 int16 = -30000
+	// var nnum2 int16 = -2500738477 --> can't be assigned
 	var num3 int32 = 2000120000
+	// var nnum3 int32 = 73874827385726374 --> can't be assigned
 	var num4 int64 = 8124758732097929473
+	// var nnum4 int64 = -93747367428637573845 --> can't be assigned
+
+	/* Printing the value of the integers along with type and size (returned in bytes) */
 	fmt.Printf("\nvalue of num: %v, type of num: %T, size of num: %d", num, num, unsafe.Sizeof(num))
 	fmt.Printf("\nvalue of num1: %v, type of num1: %T, size of num1: %d", num1, num1, unsafe.Sizeof(num1))
 	fmt.Printf("\nvalue of num2: %v, type of num2: %T, size of num2: %d", num2, num2, unsafe.Sizeof(num2))
@@ -42,6 +48,8 @@ func Unsignedintdatatype() {
 	// var nn3 uint32 = 33431263476354 --> can't be assigned
 	var n4 uint64 = 18124758732097929473
 	// var nn4 uint64 = -181247587320979294737873 --> can't be assigned
+
+	/* Printing the value of the integers along with type and size (returned in bytes) */
 	fmt.Printf("\n\nvalue of n: %v, type of n: %T, size of n: %d", n, n, unsafe.Sizeof(n))
 	fmt.Printf("\nvalue of n1: %v, type of n1: %T, size of n1: %d", n1, n1, unsafe.Sizeof(n1))
 	fmt.Printf("\nvalue of n2: %v, type of n2: %T, size of n2: %d", n2, n2, unsafe.Sizeof(n2))
