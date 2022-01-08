@@ -1,7 +1,7 @@
 package main
 
 import (
- "anusha/modulesgo/variable"
+ "github.com/Anusha1325/assignments/tree/main/variables/variable"
 )
 
 func main() {

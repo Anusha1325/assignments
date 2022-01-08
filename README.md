@@ -2,4 +2,4 @@
 
 
 
-Hey, this is my repository for go assignments.
+Hey! This is my repo for go assignments.
